@@ -49,3 +49,4 @@ ON characters.id = character_books.character_id
 GROUP BY characters.name
 ORDER BY COUNT(name) DESC;"
 end
+end
